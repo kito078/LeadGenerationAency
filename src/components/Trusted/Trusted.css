@@ -1,0 +1,13 @@
+
+.trusted img {
+    width: 100px !important;
+    margin: auto !important;   
+  }
+  
+  @media (min-width: 640px) {
+    /* Styles for small devices */
+    .trusted img {
+      width: 150px !important;
+      margin: auto !important;   
+    }
+  }
