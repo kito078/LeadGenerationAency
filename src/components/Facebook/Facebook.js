@@ -4,7 +4,7 @@ import Fb from "../../Images/ma.jpg";
 
 function Facebook() {
   return (
-    <div className="seperator grid grid-cols-1 md:grid-cols-2e lg:grid-cols-2 gap-12 p-4">
+    <div className="seperator grid grid-cols-1 md:grid-cols-2e lg:grid-cols-2 gap-2 md:gap-12 p-4">
       <div className="max-w-xl mx-auto  rounded-lg shadow-md p-5">
         <p className="text-lg mb-4">
           We do it using Facebook's (Meta's) ad platform

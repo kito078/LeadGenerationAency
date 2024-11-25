@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = ({ testimonial }) => {
   return (
-    <div className="max-w-sm mx-auto bg- shadow-lg rounded-lg overflow-hidden">
+    <div className="max-w-sm mx-auto mb-6 bg- shadow-lg rounded-lg overflow-hidden">
       <div className="relative">
         <img
           className="w-full h-48 object-cover"

@@ -30,16 +30,17 @@ function Shocase() {
         </div>
       </div>
 
-      <h2 className="text-2xl md:text-xl font-bold text-gray-300 mb-3 md:my-6">
+      <h2 className="text-md md:text-xl font-bold text-gray-300 mb-3 md:my-6">
         4.9/5 out of 100+ reviews
       </h2>
       <h3 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-300 mb-3 md:my-6">
-        We help Construction Businesses get more customers and double their
-        sales without wasting time or money on ads that don’t deliver results.
+        We help Construction Businesses get more customers & double their sales
+        without wasting time & money on ads that don’t deliver results.
       </h3>
       <p className="text-gray-300 text-lg lg:text-2xl font-normal mb-8 mr-3">
-        Getting started with us is free, so you have nothing to lose. You only
-        pay once you start gaining customers or when your sales have doubled
+        Getting started with us is free, so you have nothing to lose. You don’t
+        pay anything until you start gaining some customers or when your sales
+        have doubled
       </p>
       {/* <p className="text-gray-400 text-lg lg:text-2xl font-normal mb-8 mr-3">
         We build those same systems inside your business, and if it doesn't work
