@@ -10,6 +10,7 @@ import Showcase from "./components/Showcase/Showcase";
 import Test from "./components/Testimonial/Test";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Trusted from "./components/Trusted/Trusted";
+import WhatsAppButton from "./components/WhatsAppButon/WhatsAppButon";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Case />
         <Contact />
         <Footer />
+        <WhatsAppButton />
       </div>
     </div>
   );
