@@ -25,7 +25,7 @@ const generationData = [
 
 function Generation() {
   return (
-    <div className="">
+    <div className="seperator">
       <div>
         <h3 className="text-lg text-red-500 uppercase mt-16 md:mt-24 mb-4 md:text-3xl lg:text-3xl text-center font-bold text-gray-300 mb-3 lg:my-6">
           How do we achieve the best results?

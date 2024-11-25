@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <div className="container-one cont mxe-auto m-8">
+      <div className="container-one mx-auto">
         <Showcase />
         <Trusted />
         <Test />

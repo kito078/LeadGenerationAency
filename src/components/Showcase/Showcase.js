@@ -17,7 +17,7 @@ function Shocase() {
   //const steps = ["Ngqabutho", 1000, "Ngqabutho Kito Ndlovu!", 500];
   return (
     <div
-      className="  lg:mb-40 mx-4 md:mx-7 flex flex-col lg:flex-col  items-center justify-center md:items-start xl:justify-start text-center md:text-start"
+      className="seperator lg:mb-40 mx-4 md:mx-7 flex flex-col lg:flex-col  items-center justify-center md:items-start xl:justify-start text-center md:text-start"
       id="home"
     >
       <div className="flex items-center justify-center md:items-center md:justify-start">

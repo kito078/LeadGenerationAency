@@ -3,6 +3,15 @@
   background-color: red;
 } */
 
+.navbar-container{
+  background: #000000;
+}
+/* .navbar-container{
+  background: #fff;
+} */
+.logo img{
+  width: 150px !important;
+}
 .hamburger {
     cursor: pointer;
     width: 24px;

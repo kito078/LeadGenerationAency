@@ -1,10 +1,10 @@
 import React from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
-//import myImage from "./images/gof.png";
+import Fb from "../../Images/ma.jpg";
 
 function Facebook() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2e lg:grid-cols-2 gap-12 p-4">
+    <div className="seperator grid grid-cols-1 md:grid-cols-2e lg:grid-cols-2 gap-12 p-4">
       <div className="max-w-xl mx-auto  rounded-lg shadow-md p-5">
         <p className="text-lg mb-4">
           We do it using Facebook's (Meta's) ad platform
@@ -35,7 +35,7 @@ function Facebook() {
       </div>
       <div className="flex justify-center">
         <img
-          src="./images/ma.jpg"
+          src={Fb}
           alt="Facebook Logo"
           className="w-full  object-contain    "
         />

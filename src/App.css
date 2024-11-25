@@ -2,3 +2,12 @@
   max-width: 1240px;
   margin: auto;
 }
+.seperator {
+  margin-bottom: 7rem;
+}
+
+@media (min-width: 768px) { /* Adjust breakpoint as needed for larger screens */
+  .seperator {
+    margin-bottom: 10rem;
+  }
+}

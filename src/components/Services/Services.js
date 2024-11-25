@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="w-full md:max-w-[70vw] mx-auto ">
+    <div className="seperator w-full md:max-w-[70vw] mx-auto ">
       <h3 className="text-3xl md:text-4xl lg:text-6xl text-center font-bold text-gray-300 mb-3 md:my-6">
         What We Do
       </h3>

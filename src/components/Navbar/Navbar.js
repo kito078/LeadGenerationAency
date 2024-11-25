@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 import { FaHornbill } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import logo from "../../Images/log.jpg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,22 +20,22 @@ function Navbar() {
 
   const closeMenu = () => (setClick(false), setIsOpen(false));
   return (
-    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0 bg-dark">
+    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto px-2 px-6s sticky top-0 bg-dark">
       <div className="container-onet">
         {/* flex container for Nav Items */}
-        <div className="flex items-center justify-between space-x-20 my-2">
+        <div className="flex items-center justify-between space-x-20 my-2f">
           {/* logo */}
 
-          <div className="flex  px-2 mx-2">
+          <div className="logo flex mt-2 px-2 mx-2">
             <img
-              src="./images/log.png"
+              src={logo}
               alt="Facebook Logo"
-              className="w-1/4  object-contain    "
+              className="w-1/2w  object-contain    "
             />
             {/* <FaHornbill className="inline pr-2 mt-2 md:mt-3 text-4xl" /> */}
-            <h4 className="text-xl mt-3 md:mt-4  font-bold align-middle text-white">
+            {/* <h4 className="text-xl mt-3 md:mt-4  font-bold align-middle text-white">
               LG Agency
-            </h4>
+            </h4> */}
           </div>
 
           {/* Menu Items */}
@@ -96,9 +97,9 @@ function Navbar() {
           id="menu"
           className={`${
             isOpen ? "flex" : "hidden"
-          } fixed inset-0 z-20 md:hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-black`}
+          } fixed inset-0 z-20 md:hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1q pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-black`}
         >
-          <div className="w-full py-3 text-center">
+          <div className="w-full py-3w text-center">
             <a
               href="#home"
               onClick={closeMenu}
@@ -107,7 +108,7 @@ function Navbar() {
               Home
             </a>
           </div>
-          <div className="w-full py-3 text-center">
+          <div className="w-full py-3s text-center">
             <a
               href="#contact"
               onClick={closeMenu}
@@ -117,7 +118,7 @@ function Navbar() {
             </a>
           </div>
 
-          <div className="w-full py-3  text-center">
+          <div className="w-full py-3w  text-center">
             <a
               href="#about"
               onClick={closeMenu}

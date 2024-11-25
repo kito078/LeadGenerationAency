@@ -1,12 +1,13 @@
 import React from "react";
+import cas from "../../Images/case.png";
 
 function Case() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 p-6 md:p-12">
+    <div className="seperator flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 p-6 md:p-12">
       {/* Image Section */}
       <div className="md:w-1/2 mb-6 md:mb-0">
         <img
-          src="./images/case.png"
+          src={cas}
           alt="Descriptive Alt Text"
           className="w-full h-auto object-cover rounded-lg shadow-lg"
         />
