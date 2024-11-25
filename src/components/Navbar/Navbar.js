@@ -20,7 +20,7 @@ function Navbar() {
 
   const closeMenu = () => (setClick(false), setIsOpen(false));
   return (
-    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto px-2 px-6s sticky top-0 bg-dark">
+    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto px-2 px-6 sticky top-0 bg-dark">
       <div className="container-onet">
         {/* flex container for Nav Items */}
         <div className="flex items-center justify-between space-x-20 my-2f">
