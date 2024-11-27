@@ -74,7 +74,18 @@ function Navbar() {
             >
               About |
             </Link>
-            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+            {/* <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+              APPLY NOW
+            </button> */}
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/kitokessian07/consultation?month=2024-11",
+                  "_blank"
+                )
+              }
+            >
               APPLY NOW
             </button>
           </div>
