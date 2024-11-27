@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
+import { InlineWidget } from "react-calendly";
 
 import { BsGithub, BsInstagram } from "react-icons/bs";
 // import Follow from "../follow/Follow";
@@ -47,7 +48,18 @@ function Shocase() {
         to get you customers , you get a refund
       </p> */}
       <div className="flex items-center justify-center md:items-start md:justify-start">
-        <button class="bg-red-500 hover:bg-red-700 mb-8  mx-auto text-xl text-white font-bold py-2 px-4 rounded w-64">
+        {/* <button class="bg-red-500 hover:bg-red-700 mb-8  mx-auto text-xl text-white font-bold py-2 px-4 rounded w-64">
+          APPLY NOW
+        </button> */}
+        <button
+          className="bg-red-500 hover:bg-red-700 mb-8 mx-auto text-xl text-white font-bold py-2 px-4 rounded w-64"
+          onClick={() =>
+            window.open(
+              "https://calendly.com/kitokessian07/consultation?month=2024-11",
+              "_blank"
+            )
+          }
+        >
           APPLY NOW
         </button>
       </div>
