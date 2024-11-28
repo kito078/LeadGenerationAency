@@ -3,6 +3,7 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 import { InlineWidget } from "react-calendly";
+import "./Showcase.css";
 
 import { BsGithub, BsInstagram } from "react-icons/bs";
 // import Follow from "../follow/Follow";
@@ -32,16 +33,17 @@ function Shocase() {
       </div>
 
       <h2 className="text-md md:text-xl font-bold text-gray-300 mb-3 md:my-6">
-        4.9/5 out of 100+ reviews
+        4.9/5 out of <span className="text-red-700">100+ </span> reviews
       </h2>
       <h3 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-300 mb-3 md:my-6">
-        We help Construction Businesses get more customers & double their sales
+        We help Construction Businesses get more customers &{" "}
+        <span className="text-red-700">double their sales </span>
         without wasting time & money on ads that don’t deliver results.
       </h3>
       <p className="text-gray-300 text-lg lg:text-2xl font-normal mb-8 mr-3">
         Getting started with us is free, so you have nothing to lose. You don’t
-        pay anything until you start gaining some customers or when your sales
-        have doubled
+        pay anything until you start gaining some customers or when your{" "}
+        <span className="text-red-700">sales have doubled </span>
       </p>
       {/* <p className="text-gray-400 text-lg lg:text-2xl font-normal mb-8 mr-3">
         We build those same systems inside your business, and if it doesn't work
@@ -52,7 +54,7 @@ function Shocase() {
           APPLY NOW
         </button> */}
         <button
-          className="bg-red-500 hover:bg-red-700 mb-8 mx-auto text-xl text-white font-bold py-2 px-4 rounded w-64"
+          className="showcase__primary hover:bg-red-300 mb-8 mx-auto text-XL text-white font-bold py-2 px-4 rounded w-64"
           onClick={() =>
             window.open(
               "https://calendly.com/kitokessian07/consultation?month=2024-11",
@@ -60,7 +62,7 @@ function Shocase() {
             )
           }
         >
-          APPLY NOW
+          FREE CONSULTATION
         </button>
       </div>
 
