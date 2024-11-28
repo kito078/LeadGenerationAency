@@ -54,7 +54,7 @@ function Shocase() {
           APPLY NOW
         </button> */}
         <button
-          className="showcase__primary whitespace-nowrap hover:bg-red-300 mb-8 mx-auto text-xl text-white font-bold py-4 px-10 rounded w-75s"
+          className="showcase__primary whitespace-nowrap hover:bg-red-300 mb-8 mx-auto text-xl text-white font-bold py-3 px-10 rounded w-75s"
           onClick={() =>
             window.open(
               "https://calendly.com/kitokessian07/consultation?month=2024-11",
