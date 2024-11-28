@@ -35,7 +35,7 @@ function Shocase() {
       <h2 className="text-md md:text-xl font-bold text-gray-300 mb-3 md:my-6">
         4.9/5 out of <span className="text-red-700">100+ </span> reviews
       </h2>
-      <h3 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-300 mb-3 md:my-6">
+      <h3 className="text-3xl md:text-4xl lg:text-6xl font-extrabold text-gray-300 mb-3 md:my-6">
         We help Construction Businesses get more customers &{" "}
         <span className="text-red-700">double their sales </span>
         without wasting time & money on ads that don’t deliver results.

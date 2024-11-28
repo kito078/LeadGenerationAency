@@ -8,8 +8,9 @@ import Dc from "../../Images/dc.png";
 function Trusted() {
   return (
     <div className="seperator mb-6">
-      <h3 className="text-2xl mx-4 md:mx-7 my-16 md:text-4xl text-center font-bold text-gray-300 mb-3 lg:my-6">
-        Businesses that have trusted Our strategies.
+      <h3 className="text-3xl mx-4 md:mx-7 my-16 md:text-4xl text-center font-extrabold text-gray-300 mb-3 lg:my-6">
+        Businesses that have{" "}
+        <span className="text-red-700">trusted Our strategies. </span>
       </h3>
       <div>
         {/* <div className="flex justify-center mt-20">
