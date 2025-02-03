@@ -11,7 +11,7 @@ function Footer() {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="px-4 py-6 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-300 sm:text-center md:text-xl font-semibold">
-            © 2024{" "}
+            © 2025{" "}
             <a href="#" className="text-gray-300">
               Lead Generation Agency
             </a>

@@ -1,13 +1,46 @@
 
+.trusted {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust gap as needed */
+  margin-top: 5rem;
+}
+
 .trusted img {
-    width: 100px !important;
-    margin: auto !important;   
-  }
+  width: 100%; /* Default for small screens */
+  max-width: 60px; /* Restrict max width */
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 400px) { /* Equivalent to Tailwind's md */
+  .trusted {
+
+    gap: 50px; /* Adjust gap as needed */
   
-  @media (min-width: 640px) {
-    /* Styles for small devices */
-    .trusted img {
-      width: 150px !important;
-      margin: auto !important;   
-    }
   }
+}
+@media (min-width: 640px) { /* Equivalent to Tailwind's md */
+  .trusted img {
+    max-width: 10%; /* Adjust as needed */
+  }
+}
+
+@media (min-width: 768px) { /* Equivalent to Tailwind's lg */
+  .trusted img {
+    max-width: 9%;
+  }
+  .trusted {
+    gap: 100px; /* Adjust gap as needed */
+  }
+}
+
+@media (min-width: 1024px) { /* Equivalent to Tailwind's xl */
+  .trusted img {
+    max-width: 9%; /* 1/6 width */
+  }
+  .trusted {
+    gap: 200px; /* Adjust gap as needed */
+  }
+}

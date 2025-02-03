@@ -5,14 +5,14 @@ const TestimonialCard = ({ testimonial }) => {
     <div className="max-w-sm mx-auto mb-6 bg- shadow-lg rounded-lg overflow-hidden">
       <div className="relative">
         <img
-          className="w-full h-48 object-cover"
+          className="w-full h-50 object-cover"
           src={testimonial.image}
           alt="Card background"
         />
         {/* Profile Section - Top Left */}
         <div className="absolute top-2 left-2 flex items-center">
           <img
-            className="w-16 h-16 rounded-full object-contain border-2 border-white"
+            className="w-16 h-20 rounded-full object-contain border-2 border-white"
             src={testimonial.image}
             alt="Profile"
           />

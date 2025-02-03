@@ -1,33 +1,33 @@
 import React from "react";
 import TestimonialCard from "./TestimonialCard ";
-import man1 from "../../Images/man1.jpg";
-import man2 from "../../Images/man2.jpg";
+import man1 from "../../Images/man1.webp";
+import man5 from "../../Images/man5.png";
 import Man3 from "../../Images/man3.jpg";
 
 const testimonials = [
   {
     id: 1,
-    name: "John Hewlett",
-    title: "Founder & CEO of Miracle",
+    name: "Thabo Mokoena",
+    title: "Founder & CEO of Nest IT Solution",
     description:
-      "This is a description of the card content. It provides additional information about what is being presented on the card.",
+      "Elite Lead Agency has been instrumental in expanding our client base. Their lead generation strategies have consistently delivered qualified leads, contributing significantly to our sales growth.",
     image: man1,
   },
   {
     id: 2,
-    name: "Jane Doe",
-    title: "Co-Founder of Innovation",
+    name: "Johan van der Merwe",
+    title: "Co-Founder of Lanline",
     description:
-      "This is another description of the card content for Jane Doe.",
-    image: man2,
+      "Partnering with Elite Lead Agency transformed our online presence. Their expertise in web design and digital marketing has led to a noticeable increase in customer engagement and sales..",
+    image: man5,
   },
   // Duplicate testimonials
   {
     id: 3,
-    name: "John Hewlett",
-    title: "Founder & CEO of Miracle",
+    name: "Lebo Masango",
+    title: "Founder & CEO of The Leo Furniture",
     description:
-      "This is a description of the card content. It provides additional information about what is being presented on the card.",
+      "Elite Lead Agency is the best digital marketing agency I’ve had the privilege of working with – it’s been a joyous experience and my business has grown. The team is timeous and professional... it’s like magic! Thank you, team Elite Lead Agency.",
     image: Man3,
   },
 ];
